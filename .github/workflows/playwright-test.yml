@@ -1,17 +1,17 @@
 name: Playwright Tests
 on:
   push:
-    branches: [main]
+    branches: [main] # will run the code when there is push to main branch
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v3 # git will copy repo to ubuntu machine
+      - uses: actions/setup-node@v3 # install node on ubuntu machine
         with:
-          node-version: 18
+          node-version: 18 # node version on ubuntu machine
       - name: Install dependencies
-        run: npm ci
+        run: npm ci 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
