@@ -6,7 +6,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 # git will copy repo to ubuntu machine
+      - uses: actions/checkout@v3 ## git will copy repo to ubuntu machine
       - uses: actions/setup-node@v3 # install node on ubuntu machine
         with:
           node-version: 18 # node version on ubuntu machine
