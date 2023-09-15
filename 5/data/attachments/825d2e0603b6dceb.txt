@@ -1,0 +1,18 @@
+res APIResponse: 201 Created
+  Server: Cowboy
+  Connection: close
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 163
+  Etag: W/"a3-zwFqMOI2Xr6CDyTtt6zk26rGOKc"
+  Date: Fri, 15 Sep 2023 11:49:58 GMT
+  Via: 1.1 vegur
+resBody {
+  isCompleted: false,
+  _id: '650444e657b1850014660839',
+  item: 'Learn Playwright',
+  userID: '650444e657b1850014660837',
+  createdAt: '2023-09-15T11:49:58.806Z',
+  __v: 0
+}
