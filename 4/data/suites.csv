@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 15 11:36:30 GMT 2023","Fri Sep 15 11:36:33 GMT 2023","2675","chromium","","","","","should be able to delete a todo",""
+"passed","Fri Sep 15 11:36:37 GMT 2023","Fri Sep 15 11:36:41 GMT 2023","4112","firefox","","","","","should be able to add a new todo",""
+"passed","Fri Sep 15 11:36:41 GMT 2023","Fri Sep 15 11:36:44 GMT 2023","2880","firefox","","","","","should be able to delete a todo",""
+"passed","Fri Sep 15 11:36:33 GMT 2023","Fri Sep 15 11:36:35 GMT 2023","2351","chromium","","","","","should be able to register to our application",""
+"passed","Fri Sep 15 11:36:44 GMT 2023","Fri Sep 15 11:36:46 GMT 2023","2502","firefox","","","","","should be able to register to our application",""
+"passed","Fri Sep 15 11:36:26 GMT 2023","Fri Sep 15 11:36:30 GMT 2023","4039","chromium","","","","","should be able to add a new todo",""
